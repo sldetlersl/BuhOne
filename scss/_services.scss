@@ -1,38 +1,27 @@
 .services {
     background: #EBEBEB;
-    &__container {
-    }
-
     &__info {
         margin: 140px 0 140px 0;
     }
-
     &__title {
-        // font: 900 24px/33px 'Lato', sans-serif;
         color: #BDBDBD;
     }
-
     &__subtitle {
         margin: 40px 0 100px 0;
-        // font: 900 48px/69px 'Merriweather', sans-serif;
         color: #333333;
     }
-
     &__content {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-
     &__item {
         display: flex;
         align-items: flex-end;
-        
         margin-bottom: 30px;
         background: url(../image/section-services-item-background-disable.png);
         width: 350px;
         height: 360px;
-        
     }
     &__item:hover {
         background: url(../image/section-services-item-background.png);
@@ -46,34 +35,26 @@
 }
 @media (min-width: 600px) and (max-width: 1199px) {
     .services {
-        &__container {
-        }
-    
         &__info {
             margin: 80px 20px 80px 20px;
         }
-    
         &__title {
             font: 900 20px/33px 'Lato', sans-serif;
             color: #BDBDBD;
         }
-    
         &__subtitle {
             margin: 40px 0 80px 0;
             font: 900 36px/69px 'Merriweather', sans-serif;
             color: #333333;
         }
-    
         &__content {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
         }
-    
         &__item {
             display: flex;
             align-items: flex-end;
-            
             margin-bottom: 30px;
             background: url(../image/section-services-item-background-disable.png);
             width: 350px;
@@ -92,31 +73,23 @@
 }
 @media (min-width: 320px) and (max-width: 599px) {
     .services {
-        &__container {
-        }
-    
         &__info {
-            
             margin: 40px 20px 40px 20px;
         }
-    
         &__title {
             font: 900 18px/22px 'Lato', sans-serif;
             color: #BDBDBD;
         }
-    
         &__subtitle {
             margin: 40px 0 40px 0;
             font: 900 22px/30px 'Merriweather', sans-serif;
             color: #333333;
         }
-    
         &__content {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
         }
-    
         &__item {
             display: flex;
             align-items: flex-end;
@@ -124,7 +97,6 @@
             background: center url(../image/section-services-item-background-disable.png);
             width: 280px;
             height: 280px;
-            
         }
         &__item:hover {
             background: url(../image/section-services-item-background.png);

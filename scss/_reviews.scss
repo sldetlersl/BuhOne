@@ -1,0 +1,167 @@
+.reviews {
+width: 100%;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 100px 0 137px 0;
+    }
+    &__title {
+        padding-bottom: 40px;
+    }
+    &__subtitle {
+        padding-bottom: 80px;
+    }
+    &__slider {
+        position: relative;
+        background: #EBEBEB;
+    }
+    &__slider .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        width: 60px;
+        height: 60px;
+        margin-top: 50px;
+        border: none;
+        font-size: 0;
+        background: rgb(0, 95, 163);
+        opacity: 0.2;
+    }  
+    &__slider .slick-arrow.slick-prev {
+        top: 100%;  
+        right: 60px;
+        content: url(../image/arrow-carusel.svg);
+    } 
+    &__slider .slick-arrow.slick-prev::after {
+        content: url(../image/arrow-carusel.svg);
+    }
+    &__slider .slick-arrow.slick-next {
+        top: 100%;
+        right: 0;
+    }
+    &__slider .slick-arrow.slick-next::after {
+        content: url(../image/arrow-carusel-next.svg);
+    }
+    &__slider .slick-arrow:hover {
+        border: none;
+        background: rgb(0, 95, 163);
+        opacity: 1;
+        transform: scale(1.1);
+        cursor: pointer;
+    } 
+    &__slider .slick-dots{
+        position: absolute;
+        top: 103%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__slider .slick-dots li{
+        margin-right: 40px;
+    }
+    &__slider .slick-dots button{
+        font-size: 0;
+        margin: 90px 0;
+        width: 10px;
+        height: 10px;
+        background-color:rgb(0, 95, 163);
+        opacity: 0.4;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    &__slider .slick-dots li.slick-active button{
+        background-color: #005FA3;;
+        opacity: 1;
+    }
+    &__slider-item {
+    }
+    &__text {
+        padding: 45px 95px 60px 95px;
+        font: 300 18px/25px 'Lato', sans-serif;
+    }
+    &__person {
+        display: flex;
+        align-items: center;
+        padding: 0 0 45px 95px;
+    }
+    &__name {
+        padding: 0 0 10px 35px;
+        font: 900 18px/25px 'Lato', sans-serif;
+    }
+    &__position {
+        padding: 0 35px;
+        font: 400 14px/19px 'Lato', sans-serif;
+    }
+}
+@media (min-width: 750px) and (max-width: 1199px) {
+    .reviews {
+        width: 100%;
+            &__container {    
+                width: 100%;
+                padding: 40px 0 140px 0;
+            }
+            &__info {
+                margin-left: 20px;
+            }
+            &__title {
+                padding-bottom: 40px;
+            }
+            &__subtitle {
+                padding-bottom: 80px;
+            }
+            &__slider {
+                margin: 0 20px;
+            }
+            &__text {
+                padding: 25px 45px 30px 45px;
+            }
+            &__person {
+                padding: 0 0 25px 45px;
+            }
+        }
+}
+@media (min-width: 320px) and (max-width: 749px) {
+    .reviews {
+        width: 100%;
+            &__container {    
+                width: 100%;
+                padding: 40px 0 140px 0;
+            }
+            &__info {
+                margin-left: 20px;
+            }
+            &__title {
+                padding-bottom: 40px;
+                font-size: 18px;
+            }
+            &__subtitle {
+                padding-bottom: 40px;
+                font-size: 22px;
+            }
+            &__slider {
+                margin: 0 20px;
+            }
+            &__slider .slick-arrow {
+                visibility: hidden;
+            }
+            &__slider .slick-dots{
+                width: 100%;
+                top: 95%;
+                left: 5%;
+            }
+            &__text {
+                padding: 25px 15px 30px 15px;
+            }
+            &__person {
+                padding: 0 0 25px 15px;
+            }
+            &__name {
+                padding: 0 0 10px 15px;
+            }
+            &__position {
+                padding: 0 15px;
+            }
+        }
+}
