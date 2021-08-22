@@ -15,7 +15,7 @@
 }
 .title {
     font: 900 24px/33px 'Lato', sans-serif;
-    
+    color: #BDBDBD;
 }
 .subtitle {
     font: 900 48px/69px 'Merriweather', sans-serif;
@@ -26,6 +26,7 @@
 @import "_main";
 @import "_services";
 @import "_about";
+@import "_clients";
 
 // font-family: 'Lato', sans-serif;
 // font-family: 'Merriweather', serif;

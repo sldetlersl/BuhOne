@@ -32,9 +32,10 @@
     &__slider .slick-arrow:hover {
         border: 2px solid rgba(255, 255, 255, 0.4);
         transform: scale(1.1);
-        cursor: pointer;
+        
     } 
     &__slider .slick-dots{
+        
         position: absolute;
         top: 110%;
         display: flex;
@@ -42,9 +43,11 @@
         justify-content: center;
     }
     &__slider .slick-dots li{
+        
         margin-right: 40px;
     }
     &__slider .slick-dots button{
+        cursor: pointer;
         font-size: 0;
         width: 10px;
         height: 10px;
