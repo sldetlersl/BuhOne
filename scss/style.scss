@@ -21,6 +21,12 @@
     font: 900 48px/69px 'Merriweather', sans-serif;
     
 }
+.slick-list {
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap');
 @import "_header";
 @import "_main";
@@ -28,6 +34,7 @@
 @import "_about";
 @import "_clients";
 @import "_reviews";
+@import "_footer";
 // /* Ограничивающая оболочка */
 // .slick-list {
 // }

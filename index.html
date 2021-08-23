@@ -28,8 +28,8 @@
                         <li class="header__menu-item"><a class="header__link" href="#main">Главная</a></li>
                         <li class="header__menu-item"><a class="header__link" href="#services">услуги</a></li>
                         <li class="header__menu-item"><a class="header__link" href="#clients">кейсы</a></li>
-                        <li class="header__menu-item"><a class="header__link" href="#">о компании</a></li>
-                        <li class="header__menu-item"><a class="header__link" href="#">контакты</a></li>
+                        <li class="header__menu-item"><a class="header__link" href="#about">о компании</a></li>
+                        <li class="header__menu-item"><a class="header__link" href="#footer">контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -115,7 +115,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about__container container">
             <div class="about__info">
                 <div class="about__text">
@@ -260,6 +260,37 @@
             </div>
         </div>
     </section>
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="footer__info">
+                <p class="footer__subtitle subtitle">Связь с нами</p>
+                <p class="footer__text">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                <ul class="footer__list">
+                    <li class="footer__list-item">8 (111) 222-33-44</li>
+                    <li class="footer__list-item">order@buhone.ru</li>
+                </ul>
+            </div>
+            <form class="footer__form" action="#">
+
+                <div class="footer__form-group">
+                    <label class="footer__form-label" for="name">Имя</label>
+                    <input type="text" class="footer__form-name footer__form-input" id="name" placeholder="Иван">
+                </div>   
+                <div class="footer__form-group">
+                    <label class="footer__form-label" for="surname">Фамилия</label>
+                    <input type="text" class="footer__form-surname footer__form-input" id="surname"  placeholder="Иванов">
+                </div>
+                <div class="footer__form-textarea">
+                    <label class="footer__form-label" for="">Сообщение</label>
+                    <textarea class="footer__form-text footer__form-input" name="#" id="#" cols="30" rows="10"  placeholder="Ваше сообщение"></textarea>
+                    
+                </div>
+                <div class="footer__form-submit">
+                    <input class="footer__form-button" type="submit" value="Отправить сообщение">
+                </div>
+            </form>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./script/slick.min.js"></script>
     <script src="./script/script.js"></script>
