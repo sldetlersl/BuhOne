@@ -83,7 +83,7 @@
         transform: scale(1.1);
     }
 }
-@media (min-width: 750px) and (max-width: 1199px) {
+@media (min-width: 849px) and (max-width: 1199px) {
     .clients {
         &__container {
             width: 100%;
@@ -109,10 +109,11 @@
         }
         &__image-company {
             width: 255px;
+            margin: 0 75px 0 75px;
         }
     }
 }
-@media (min-width: 320px) and (max-width: 749px) {
+@media (min-width: 320px) and (max-width: 848px) {
     .clients {
         &__container {
             width: 100%;
@@ -147,7 +148,8 @@
             flex-wrap: wrap;
         }
         &__image-company {
-            width: 200px;
+            width: 220px;
+            margin: 0 25px 0 25px;
         }
     }
 }

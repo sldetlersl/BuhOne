@@ -42,6 +42,7 @@
         width: 255px;
     }
     &__form-label {
+        margin-top: 20px;
         font: 400 16px/22px 'Lato', sans-serif;
         color: #FFFFFF;
     }
@@ -110,7 +111,7 @@
         &__text {
             display: flex;
             justify-content: center;
-            margin: 40px 125px 0px 0;
+            margin: 40px 0 0 0;
             width: 100%;
         }
         &__list {
@@ -119,18 +120,20 @@
             justify-content: center;
         }
         &__list-item {
-            padding: 20px;
+            padding: 40px;
         }
         &__form {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
             align-items: center;
+            justify-content: space-around;
         }
         &__form-group{
-            width: 75%;
+            width: 40%;
         }
         &__form-textarea {
-            width: 75%;
+            width: 90%;
         }
         &__form-submit {
             display: flex;
@@ -157,9 +160,8 @@
         }
     
         &__text {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0px 0px 0;
+            text-align: center;
+            margin: 20px 0px 20px 0;
             width: 100%;
             font-size: 14px;
         }
@@ -167,24 +169,25 @@
         &__list {
             display: flex;
             flex-direction: column;
-            width: 100%;
             align-items: center;
-            margin: 20px 0;
+            width: 100%;
         }
     
         &__list-item {
+            text-align: end;
+            width: 165px;
             font-size: 14px;
             padding: 20px 0 20px 0;
         }
         &__form {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
-            // justify-content: space-between;
-            // flex-wrap: wrap;
+            justify-content: space-around;
+            flex-wrap: wrap;
         }
         &__form-group{
-            width: 100%;
+            width: 500px;
         }
         &__form-label {
             font-size: 14px;
@@ -196,7 +199,7 @@
             font-size: 18px;
         }
         &__form-textarea {
-            width: 100%;
+            width: 500px;
         }
         &__form-submit {
             display: flex;

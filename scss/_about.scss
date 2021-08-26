@@ -57,7 +57,7 @@
         color: #005FA3;
     }
 }
-@media (min-width: 770px) and (max-width: 1199px) {
+@media (min-width: 885px) and (max-width: 1199px) {
     .about {
         &__container {
             display: flex;
@@ -91,11 +91,23 @@
             justify-content: space-around;
         }
         &__item {
+            height: 220px;
+            width: 200px;
+            margin: 0;
             margin-bottom: 20px;
+        }
+        &__item-text {
+            padding: 20px 0 0 30px;
+        }
+        &__item-text--small {
+            padding: 25px 0 25px 30px;
+        }
+        &__item-link {
+            padding: 0 0 20px 30px;
         }
     }
 }
-@media (min-width: 320px) and (max-width: 769px) {
+@media (min-width: 620px) and (max-width: 885px) {
     .about {
         &__container {
             display: flex;
@@ -132,8 +144,68 @@
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        &__item {
-            margin: 0 0 15px 0;
+        &__item {    
+            width: 250px;
+            height: 260px;
+            margin: 0 20px 15px 20px;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 620px) {
+    .about {
+        &__container {
+            display: flex;
+            flex-direction: column;
+            margin: 0 20px 0 20px;
+            padding: 80px 0;
+        }
+        &__info {
+            width: 100%;
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__subtitle {
+            font-size: 22px;
+            padding: 20px 0 30px 0;
+            line-height: 32px;
+        }
+        &__subtitle--color {
+            font-size: 22px;
+        }
+        &__description {
+            width: 100%;
+            margin: 0;
+        }
+        &__description p {
+            margin-bottom: 40px;
+            font: 300 14px/20px 'Lato', sans-serif;
+            text-align: center;
+        }
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {    
+            display: flex;
+            align-items: center;
+            width: 70%;
+            height: 200px;
+            margin: 0 20px 15px 20px;
+        }
+        &__item-text {
+            padding: 20px 0 0 0px;
+            font-size: 3rem;
+        }
+        &__item-text--small {
+            text-align: center;
+            padding: 20px 0 25px 0px;
+            width: 100%;
+            font-size: 16px;
+        }
+        &__item-link {
+            padding: 0 0 20px 0px;
         }
     }
 }
